@@ -1,5 +1,4 @@
-# cure
-Causal inference for cure models
+# Causal inference for cure models
 
 ## curefunctions.R
 
