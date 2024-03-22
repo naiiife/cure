@@ -1,7 +1,7 @@
 # cure
 Causal inference for cure models
 
-##curefunctions.R
+## curefunctions.R
 
 Estimate survival function in always-uncured
  
@@ -17,10 +17,10 @@ newdata = NULL: estimate Suu(t)
  
 newdata = c(x,v,w): estimate Suu(t|x,w)
 
-##simulation.R
+## simulation.R
 
 Simulation studies and sensitivity analysis
 
-##application.R
+## application.R
 
 Real data application, estimating strata proportions, survival functions and sensitivity analysis
