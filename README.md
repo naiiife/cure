@@ -25,6 +25,8 @@ Simulation studies and sensitivity analysis
 Real data application, estimating strata proportions, survival functions and sensitivity analysis
 
 
+~
+
 
 To cite:
 
