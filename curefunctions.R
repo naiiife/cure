@@ -308,7 +308,7 @@ surv_uu1 <- function(Time,status,X,V,W=NULL,TRT,data,rho=1,newdata=NULL){
               Puu=Puu,Puc=Puc,Pcu=Pcu,Pcc=Pcc,TDU=TDU))
 }
 
-# averaged mixture cure model
+# principal ignorability
 amc <- function(Time,status,X,V=NULL,W=NULL,TRT,data,rho=1,newdata=NULL){
   timeform = formula(paste0('Surv(',Time,',',status,')~',paste0(c(X,W),collapse='+')))
   cureform = formula(paste0('~',paste0(c(X,V),collapse='+')))
